@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    background-image : url( abs-g947034c73_1920.jpg ) ;
+   
+  
+    height: 1000px;
+    
+}
+.footer{
+    position: absolute;
+    bottom:0px;
+    
+    border: 2px solid red;
+}
+.logo{
+    border-radius:119px;
+    height: 65px;
+    width: 65px;
+    position:absolute;
+    top: 12px;
+    left: 34px;
+}
+.navbar{
+  border: 2px solid red;
+  width: 950px;
+  margin: 5px 275px;
+  border-radius: 24px;
+  padding: 12px;
+  padding-left: 25px;
+  position: fixed;
+ 
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: orange;
+    padding:0px 20px;
+
+}
+.prof{
+    color: orange;
+    position: absolute;
+    display: inline-block;
+    top:85px;
+    right: 43px;
+    text-align: center;
+
+}
+.user{
+    
+    position:absolute;
+    display: inline-block;
+    border-radius:199px;
+    top: 12px;
+    right: 34px;
+    height: 65px;
+    width: 65px;
+    border-radius:119px;
+    background-color: rgb(17, 18, 20,1);
+}
