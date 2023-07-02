@@ -4,30 +4,44 @@
     
 }
 body{
-    background-image : url( abs-g947034c73_1920.jpg ) ;
+    background : url( abs-g947034c73_1920.jpg ) ;
    
   
-    height: 1000px;
-    
+    height: 750px;
+}
+.btn{
+    background-color: orangered;
+    padding: 15px 15px;
+    margin: 65px 90px 0px 1230px;
+}
+.btnlink{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btnlink:hover{
+    text-decoration: underline;
 }
 .footer{
-    position: absolute;
+    display: inline-block;
     bottom:0px;
-    
-    border: 2px solid red;
+    color: orange;
+    top: 500px;
+    left: 20px;
+    margin: 130px 0px 0px 0px;
 }
 .logo{
     border-radius:119px;
-    height: 65px;
-    width: 65px;
+    height: 60px;
+    width: 60px;
     position:absolute;
-    top: 12px;
-    left: 34px;
+    top: 14.5px;
+    left: 22px;
 }
 .navbar{
-  border: 2px solid red;
+  border: 2px solid rgb(255, 0, 0, 0);
   width: 950px;
-  margin: 5px 275px;
+  margin: 21.5px 77px;
   border-radius: 24px;
   padding: 12px;
   padding-left: 25px;
@@ -37,28 +51,58 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: orange;
-    padding:0px 20px;
-
+    color:  rgb(250, 125, 0);
+    padding:0px 22px;
 }
-.prof{
+.quote1{
+    padding: 187px 0px 0px 960px ;
+    font-size: 62px;
+    color: rgb(255, 123, 0);
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.quote2{
+    padding: 5px 0px 0px 1085px;
+    font-size: 41px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.sel{
+    text-decoration: none;
+    color:  rgb(250, 125, 0);
+    padding:0px 22px;
+    border-bottom-color: rgb(250, 125, 0);
+    border-width:0px 0px 2px 0px;
+    border-style: solid;
+}
+.sel:hover{
+    color: orange;
+}
+.sign{
     color: orange;
     position: absolute;
     display: inline-block;
     top:85px;
-    right: 43px;
+    right: 40.5px;
     text-align: center;
-
+}
+.sign:active{
+                color: white;
+}
+.unsel:hover{
+    border-bottom-color: orange;
+    border-width:0px 0px 2px 0px;
+    border-style: solid;
+    color:  orange;
 }
 .user{
     
     position:absolute;
     display: inline-block;
     border-radius:199px;
-    top: 12px;
+    top: 14.5px;
     right: 34px;
-    height: 65px;
-    width: 65px;
+    height: 60px;
+    width: 60px;
     border-radius:119px;
     background-color: rgb(17, 18, 20,1);
 }
